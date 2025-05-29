@@ -8,21 +8,20 @@ Whether you're a beginner or an experienced Flutter developer, you'll likely fin
 
 ## 📋 Table of Contents
 
-- [1. WidgetsApp vs MaterialApp](#1-widgetsapp-vs-materialapp)
-- [2. Safe setState with mounted](#2-safe-setstate-with-mounted)
-- [3. Post-frame Callback](#3-post-frame-callback)
-- [4. KeepAlive in Tab Views](#4-keepalive-in-tab-views)
-- [5. InkWell vs GestureDetector](#5-inkwell-vs-gesturedetector)
-- [6. Platform-aware Widgets](#6-platform-aware-widgets)
-- [7. Flutter Inspector Power](#7-flutter-inspector-power)
-- [8. Using Keys for List Optimization](#8-using-keys-for-list-optimization)
-- [9. Context Extensions](#9-context-extensions)
-- [10. Visibility Alternatives](#10-visibility-alternatives)
-
+* [1. WidgetsApp vs MaterialApp](#1-widgetsapp-vs-materialapp)
+* [2. Safe setState with mounted](#2-safe-setstate-with-mounted)
+* [3. Post-frame Callback](#3-post-frame-callback)
+* [4. KeepAlive in Tab Views](#4-keepalive-in-tab-views)
+* [5. InkWell vs GestureDetector](#5-inkwell-vs-gesturedetector)
+* [6. Platform-aware Widgets](#6-platform-aware-widgets)
+* [7. Flutter Inspector Power](#7-flutter-inspector-power)
+* [8. Using Keys for List Optimization](#8-using-keys-for-list-optimization)
+* [9. Context Extensions](#9-context-extensions)
+* [10. Visibility Alternatives](#10-visibility-alternatives)
 
 ---
 
-## 💡 1. WidgetsApp vs MaterialApp
+## 1. WidgetsApp vs MaterialApp
 
 Use `WidgetsApp` when you want full control over theming and don’t need Material or Cupertino widgets:
 
@@ -35,7 +34,7 @@ return WidgetsApp(
 
 ---
 
-## 🔒 2. Safe `setState` with `mounted`
+## 2. Safe setState with mounted
 
 Avoid calling `setState()` on unmounted widgets after async calls:
 
@@ -49,7 +48,7 @@ Future<void> loadData() async {
 
 ---
 
-## 🧐 3. Post-frame Callback
+## 3. Post-frame Callback
 
 Run code **after** the first frame is rendered – useful for animations, scrolling, etc.
 
@@ -61,7 +60,7 @@ WidgetsBinding.instance.addPostFrameCallback((_) {
 
 ---
 
-## 📌 4. KeepAlive in Tab Views
+## 4. KeepAlive in Tab Views
 
 Prevent tab widgets from being disposed when switching tabs:
 
@@ -85,7 +84,7 @@ class _MyTabState extends State<MyTab> with AutomaticKeepAliveClientMixin {
 
 ---
 
-## 🌊 5. InkWell vs GestureDetector
+## 5. InkWell vs GestureDetector
 
 Use `InkWell` for material ripple effect (on top of a `Material` widget):
 
@@ -101,7 +100,7 @@ InkWell(
 
 ---
 
-## 🍎 6. Platform-aware Widgets
+## 6. Platform-aware Widgets
 
 Customize your UI for different platforms:
 
@@ -115,13 +114,13 @@ if (Theme.of(context).platform == TargetPlatform.iOS) {
 
 ---
 
-## 🕵️ 7. Flutter Inspector Power
+## 7. Flutter Inspector Power
 
 Use **"Select Widget Mode"** in Flutter DevTools to inspect your app and jump directly to the corresponding widget in your code.
 
 ---
 
-## 🗑️ 8. Using Keys for List Optimization
+## 8. Using Keys for List Optimization
 
 Preserve scroll position and improve performance with `ValueKey`:
 
@@ -139,7 +138,7 @@ ListView.builder(
 
 ---
 
-## ✨ 9. Context Extensions
+## 9. Context Extensions
 
 Add useful shortcuts to `BuildContext` with Dart extensions:
 
@@ -152,7 +151,7 @@ extension ContextExtensions on BuildContext {
 
 ---
 
-## 🧹 10. Visibility Alternatives
+## 10. Visibility Alternatives
 
 Instead of using the `Visibility` widget:
 
@@ -174,7 +173,7 @@ Have more hidden gems to share? Feel free to open a pull request or an issue!
 
 ## 🧑‍💻 Author
 
-Created by [Rahmatulloh Kholmatov](https://github.com/kholmatov.dev)
+Created by [Rahmatulloh Kholamtov](https://github.com/kholmatov.dev)
 Flutter Developer & Open Source Enthusiast 🚀
 
 ---
