@@ -8,16 +8,17 @@ Whether you're a beginner or an experienced Flutter developer, you'll likely fin
 
 ## 📋 Table of Contents
 
-* [WidgetsApp vs MaterialApp](#1-widgetsapp-vs-materialapp)
-* [Safe setState with mounted](#2-safe-setstate-with-mounted)
-* [Post-frame Callback](#3-post-frame-callback)
-* [KeepAlive in Tab Views](#4-keepalive-in-tab-views)
-* [InkWell vs GestureDetector](#5-inkwell-vs-gesturedetector)
-* [Platform-aware Widgets](#6-platform-aware-widgets)
-* [Flutter Inspector Power](#7-flutter-inspector-power)
-* [Using Keys for List Optimization](#8-using-keys-for-list-optimization)
-* [Context Extensions](#9-context-extensions)
-* [Visibility Alternatives](#10-visibility-alternatives)
+- [1. WidgetsApp vs MaterialApp](#1-widgetsapp-vs-materialapp)
+- [2. Safe setState with mounted](#2-safe-setstate-with-mounted)
+- [3. Post-frame Callback](#3-post-frame-callback)
+- [4. KeepAlive in Tab Views](#4-keepalive-in-tab-views)
+- [5. InkWell vs GestureDetector](#5-inkwell-vs-gesturedetector)
+- [6. Platform-aware Widgets](#6-platform-aware-widgets)
+- [7. Flutter Inspector Power](#7-flutter-inspector-power)
+- [8. Using Keys for List Optimization](#8-using-keys-for-list-optimization)
+- [9. Context Extensions](#9-context-extensions)
+- [10. Visibility Alternatives](#10-visibility-alternatives)
+
 
 ---
 
