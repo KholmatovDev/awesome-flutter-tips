@@ -173,7 +173,7 @@ Have more hidden gems to share? Feel free to open a pull request or an issue!
 
 ## 🧑‍💻 Author
 
-Created by [Your Name](https://github.com/your-username)
+Created by [Rahmatulloh Kholmatov](https://github.com/kholmatov.dev)
 Flutter Developer & Open Source Enthusiast 🚀
 
 ---
